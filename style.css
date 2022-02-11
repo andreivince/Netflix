@@ -9,6 +9,7 @@ body {
     background-color: #141414;
 }
 
+/*Navbar Start*/
 .navbar {
     display: flex;
     color: white;
@@ -41,4 +42,46 @@ body {
 .navbar .menu a:hover { /*Toda vez que o mouse está em cima...*/
     color: white;
 }
+/*Navbar End*/
 
+/*Principal Start*/
+.principal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.principal .demonslayer {
+    width: 650px;
+    position: fixed;
+    right: 200px;
+    top: 120px;
+}
+
+.principal .texto {
+    width: 40%;
+    position: fixed;
+    top: 200px;
+    left: 120px;
+}
+
+.principal .principal-lado {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.relevante {
+    margin-right: 20px;
+    color: rgb(13, 209, 13);
+    font: bold;
+}
+
+.ano {
+    margin-right: 20px;
+}
+
+.sinopse {
+    font-size: 15px;
+}
+
+/*Principal End*/
