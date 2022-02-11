@@ -10,11 +10,14 @@
 .navbar .menu {
     list-style: none;
     display: flex;
-    align-items: center;
+    position: fixed;
+    left: 145px;
+    top: 13px;
 }
 
 .navbar .menu a {
     padding: 10px;
+    font-size: 20px;
 }
 
 .navbar .titulo {
