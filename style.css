@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-* { 
+* { /*Sempre colocar*/
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+body {
+    background-color: #141414;
+}
+
 .navbar {
     display: flex;
+    color: white;
 }
 .navbar .menu {
-    list-style: none;
+    list-style: none; /*Tirar os pontos da lista*/
     display: flex;
     position: fixed;
     left: 145px;
@@ -17,7 +23,9 @@
 
 .navbar .menu a {
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #AAA;
 }
 
 .navbar .titulo {
@@ -28,5 +36,9 @@
 
 .navbar .titulo .flix {
     color: red;
+}
+
+.navbar .menu a:hover { /*Toda vez que o mouse está em cima...*/
+    color: white;
 }
 
