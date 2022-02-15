@@ -20,6 +20,7 @@ body {
     position: fixed;
     left: 145px;
     top: 13px;
+    cursor: pointer; /*Sinaliza que é um botão*/
 }
 
 .navbar .menu a {
@@ -85,3 +86,27 @@ body {
 }
 
 /*Principal End*/
+
+.melhores-text {
+    position: fixed;
+    top: 60%;
+    left: 7%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filmes {
+    position: fixed;
+    top: 65%;
+    left: 7%;
+}
+
+.volei {
+    width: 170px;
+    height: 250px;
+}
+
+.full {
+    width: 170px;
+    height: 250px;
+}
