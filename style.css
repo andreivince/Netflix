@@ -57,7 +57,7 @@ body {
 .principal .demonslayer {
     width: 650px;
     position: fixed;
-    right: 190px;
+    right: 250px;
     top: 120px;
 }
 
@@ -65,7 +65,7 @@ body {
     width: 40%;
     position: fixed;
     top: 200px;
-    left: 100px;
+    left: 5%;
 }
 
 .principal .principal-lado {
@@ -104,6 +104,23 @@ input:not(:checked) ~ label:hover ~ label{
 }
 input:checked ~ label{ /*Essa é a parte principal de como fazer, star. No momento em que da cheked ele coloca a label pra essa cor*/
     color: #fd4;
+}
+
+.buttons {
+    position: fixed;
+    top: 39%;
+    left: 5%;
+}
+
+.play {
+    width: 120px;
+    height: 30px;
+    font-size: 90%;
+    background: rgb(189, 14, 14);
+    color: #fff;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 560;
 }
 
 /*Principal End*/
