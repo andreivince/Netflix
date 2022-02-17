@@ -14,12 +14,14 @@ body {
 .navbar {
     display: flex;
     color: white;
+    position: fixed;
+    left: 80px;
 }
 .navbar .menu {
     list-style: none; /*Tirar os pontos da lista*/
     display: flex;
     position: fixed;
-    left: 145px;
+    left: 235px;
     top: 13px;
     cursor: pointer; /*Sinaliza que é um botão*/
 }
@@ -55,7 +57,7 @@ body {
 .principal .demonslayer {
     width: 650px;
     position: fixed;
-    right: 200px;
+    right: 190px;
     top: 120px;
 }
 
@@ -63,7 +65,7 @@ body {
     width: 40%;
     position: fixed;
     top: 200px;
-    left: 120px;
+    left: 100px;
 }
 
 .principal .principal-lado {
@@ -86,12 +88,30 @@ body {
     font-size: 15px;
 }
 
+.star input { /*Tirando a bolinha e substituindo pelo font awesome*/
+    display: none;
+}
+
+.star {
+    position: fixed;
+    left: 15%;
+    top: 22%;
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+}
+input:checked ~ label{ /*Essa é a parte principal de como fazer, star. No momento em que da cheked ele coloca a label pra essa cor*/
+    color: #fd4;
+}
+
 /*Principal End*/
 
 .melhores-text {
     position: fixed;
     top: 61%;
-    left: 7%;
+    left: 6%;
     color: white;
     font-family: 'Roboto', sans-serif;
     font: bold;
@@ -100,7 +120,7 @@ body {
 .filmes {
     position: fixed;
     top: 65%;
-    left: 7%;
+    left: 5%;
 }
 
 .volei {
