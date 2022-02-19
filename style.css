@@ -195,7 +195,7 @@ input:checked ~ label{ /*Essa é a parte principal de como fazer, star. No momen
     .navbar .titulo {
         font-size: 35px;
         position: fixed;
-        left: 140px;
+        left: 135px;
     }
     .navbar .menu {
         position: fixed;
