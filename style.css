@@ -189,3 +189,98 @@ input:checked ~ label{ /*Essa é a parte principal de como fazer, star. No momen
     height: 250px;
     margin-left: 5px;
 }
+
+/*MEDIA*/
+@media (max-width: 600px) {
+    .navbar .titulo {
+        font-size: 35px;
+        position: fixed;
+        left: 140px;
+    }
+    .navbar .menu {
+        position: fixed;
+        left: 80px;
+        top: 65px;
+    }
+    
+    .principal .demonslayer {
+        width: 100%;
+        position: fixed;
+        left: 0px;
+    }
+    .principal .principal-lado, .sinopse, .relevante {
+        display: none;
+    }
+    .principal-anime {
+        position: fixed;
+        left: 130px;
+        top: 350px;
+    }
+
+    .buttons {
+        position: fixed;
+        top: 390px;
+        left: 150px;
+    }
+    .star {
+        display: none;
+    }
+
+    .melhores-text {
+        font-size: 15px;
+        position: fixed;
+        top: 480px;
+        left: 20px;
+    }
+    .filmes {
+        position: fixed;
+        top: 510px;
+    }
+    .volei {
+        width: 90px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    
+    .full {
+        width: 90px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    
+    .name {
+        width: 90px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    
+    .death {
+        width: 90px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    
+    .jujutsu {
+        width: 90px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    
+    .attack {
+        width: 90px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    
+    .hxh {
+        width: 90px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    
+    .one {
+        width: 90px;
+        height: 130px;
+        margin-left: 5px;
+    }
+}
